@@ -25,6 +25,11 @@
             bindings = <&kp ESC>;
             key-positions = <25 34>;
         };
+
+        zmk-studio-unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <5 6>;
+        };
     };
 
     behaviors {
